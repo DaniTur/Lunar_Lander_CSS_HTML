@@ -63,4 +63,24 @@ body{
 	margin-top: 10px;
 	width: 100%;
 }
-#vmov{display:none;}
+.vmov{display:none;}
+
+.ayuda{
+	display:none;
+	position: absolute;
+    z-index: 50;
+    top: 48%;
+    width: 80%;
+    padding: 16px;
+    text-align: center;
+    background: #FFEB3B;
+    border: 5px solid #dc3e04;
+    border-radius: 12px;
+    left: 8%;
+    right: 8%;
+}
+.ayuda a{
+	text-decoration: none;
+	margin: 7px;
+	color: #095609;
+}
